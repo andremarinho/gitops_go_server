@@ -15,7 +15,7 @@ spec:
         app: goserver
     spec:
       containers:
-      - image: andrebezerramarinho1/goserver:hash-a9a7dd6
+      - image: andrebezerramarinho1/goserver:hash-38de9b4
         name: goserver
         ports:
         - containerPort: 8080
