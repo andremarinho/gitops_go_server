@@ -5,7 +5,7 @@ metadata:
     app: goserver
   name: goserver-deplyment
 spec:
-  replicas: 5
+  replicas: 1
   selector:
     matchLabels:
       app: goserver
@@ -15,7 +15,7 @@ spec:
         app: goserver
     spec:
       containers:
-      - image: andrebezerramarinho1/goserver:hash-9d3e57e
+      - image: andrebezerramarinho1/goserver:hash-a6e11c7
         name: goserver
         ports:
         - containerPort: 8080
